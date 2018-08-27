@@ -1,4 +1,4 @@
-foo: 44444444444444
+foo: 55555555555555555
 
 eureka:
   client:
@@ -30,7 +30,7 @@ management:
     endpoints:
         web:
             exposure:
-                include:  *
+                include:  '*'
     endpoint:
         health:
             show-details: always
