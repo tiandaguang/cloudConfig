@@ -1,1 +1,14 @@
-foo:  foo version git git git dev foo version git git git dev 11111111111
+spring:
+  rabbitmq:
+    host: 192.168.63.128
+    port: 5672
+    username: admin
+    password: 123456
+    virtual-host: /hd
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: bus-refresh
+
