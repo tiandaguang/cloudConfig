@@ -7,7 +7,13 @@ spring:
     username: admin
     password: 123456
     virtual-host: /hd
-    
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+        
+        
 management:
     endpoints:
         web:
