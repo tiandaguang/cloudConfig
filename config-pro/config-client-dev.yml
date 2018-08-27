@@ -13,4 +13,11 @@ management:
     web:
       exposure:
         exclude: bus-refresh
+        include: '*'
+  endpoint:
+     health:
+        show-details: always
+  server:
+      port: 9510
+               
 
